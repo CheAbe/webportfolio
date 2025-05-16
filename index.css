@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Inter;
+}
+
+#landing{	
+	color: black;
+}	
+
+#about-image{
+  float: right;
+  margin-left: 20px;
+  position: static;
+    
+}
+
+#projects{
+
+	margin-top: 40px;
+	padding: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-radius: 20px;
+}
+
+
+.training-tools{
+	padding: 40px;
+	width: 132px;
+	height: 132px;
+	margin: 30px;
+}
+
+.fe-tools-img, .mern-tools-img, .other-tools-img{
+	width: 132px;
+	height: 132px;
+	margin: 15px;
+}
+
+
+
+img {
+    width: 100px; 
+    margin: 5px;
+}
+
+
+#frontend, #mern, #others {
+	display: block;
+	background-color: skyblue;
+	
+}
+
+#footer{
+	color: black;
+	background-color: darkgray;
+}
