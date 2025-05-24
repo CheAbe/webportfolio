@@ -9,9 +9,15 @@
 	color: black;
 }	
 
+#navbar-nav{
+	justify-content: center;
+	align-content: center;
+}
+
 #about-image{
   float: right;
   margin-left: 20px;
+  margin-top: 50px;
   position: static;
     
 }
@@ -25,33 +31,54 @@
 	border-radius: 20px;
 }
 
+#tools{
+	display: flex;
+	justify-content: space-around;
+}
 
 .training-tools{
-	padding: 40px;
-	width: 132px;
-	height: 132px;
-	margin: 30px;
+ 			display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 10px;
+            padding: 10px;
+ 
 }
+
 
 .fe-tools-img, .mern-tools-img, .other-tools-img{
-	width: 132px;
-	height: 132px;
-	margin: 15px;
-}
+			width: 100px; 
 
+}
 
 
 img {
-    width: 100px; 
-    margin: 5px;
+    width: 200px; 
+    height: auto;
+    margin: 10px;
 }
 
 
-#frontend, #mern, #others {
-	display: block;
-	background-color: skyblue;
+#social{
+	float: left;
+}
+
+#button{
+	float: right;
+}
+
+
+#git{
+	height: 50px;
+	width: 80px;
+}	
+
+#linkedin{
+	height: 40px;
+	width: 40px;
 	
 }
+
 
 #footer{
 	color: black;
