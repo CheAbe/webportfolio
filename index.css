@@ -1,86 +1,40 @@
 *{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: Inter;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
 }
 
-#landing{	
-	color: black;
-}	
 
-#navbar-nav{
-	justify-content: center;
-	align-content: center;
+.img-float{
+  float:right;
+  width: 300px;
+  height: auto;
 }
 
-#about-image{
-  float: right;
-  margin-left: 20px;
-  margin-top: 50px;
-  position: static;
-    
+ul{
+  list-style: none !important;
 }
 
 #projects{
 
-	margin-top: 40px;
-	padding: 40px;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	border-radius: 20px;
-}
-
-#tools{
-	display: flex;
-	justify-content: space-around;
-}
-
-.training-tools{
- 			display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(2, 1fr);
-            gap: 10px;
-            padding: 10px;
- 
-}
-
-
-.fe-tools-img, .mern-tools-img, .other-tools-img{
-			width: 100px; 
-
-}
-
-
-img {
-    width: 200px; 
-    height: auto;
-    margin: 10px;
-}
-
-
-#social{
-	float: left;
+  margin-top: 40px;
+  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 20px;
 }
 
 #button{
-	float: right;
+  float: right;
 }
 
-
-#git{
-	height: 50px;
-	width: 80px;
-}	
-
-#linkedin{
-	height: 40px;
-	width: 40px;
-	
+#git, #linkedin{
+  height: 30px;
+  width: auto;
 }
-
 
 #footer{
-	color: black;
-	background-color: darkgray;
+  color: black;
+  background-color: darkgray;
 }
