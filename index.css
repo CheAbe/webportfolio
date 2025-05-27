@@ -25,6 +25,10 @@ ul{
   border-radius: 20px;
 }
 
+#frontend, #mern, #others{
+  text-align: center;
+}
+
 #button{
   float: right;
 }
